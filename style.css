@@ -433,3 +433,15 @@ svg:hover{
   }
 }
 
+@media screen and (max-width: 375px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+  h2{
+    font-size: larger;
+  }
+  .flex-container{
+    flex-direction: column;
+  }
+}
+
